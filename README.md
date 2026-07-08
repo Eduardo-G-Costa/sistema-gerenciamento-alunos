@@ -30,7 +30,7 @@ Projeto desenvolvido como parte dos meus estudos em Python, aplicando conceitos 
    ```
 3. Execute o script:
    ```bash
-   python sistema_alunos.py
+   python sistema-gerenciamento-alunos.py
    ```
 4. Use o menu interativo para cadastrar, listar, buscar e gerar relatórios de alunos
 
