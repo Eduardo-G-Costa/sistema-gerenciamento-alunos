@@ -51,13 +51,6 @@ Opcão(0-6):
 
 Alunos com nota igual ou superior a **7.0** são considerados Aprovados; abaixo disso, Reprovados.
 
-## Próximos passos
-
-- [ ] Adicionar validação de entradas (evitar notas fora do intervalo 0-10)
-- [ ] Permitir edição e exclusão de alunos cadastrados
-- [ ] Migrar armazenamento para arquivo JSON ou banco de dados
-- [ ] Adicionar testes automatizados
-
 ## Autor
 
 Desenvolvido por Eduardo G. Costa, estudante de Engenharia de Software, durante estudos práticos de Python.
