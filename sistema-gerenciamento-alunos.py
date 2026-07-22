@@ -29,9 +29,9 @@ def busca_nome():
     busca = input("Digite o nome que deseja buscar: ")
     for a in alunos:
         if a["nome"] == busca:
-            print(f"{busca} encontrado! Nota: {a['nota']}")
+            print(f"{busca} encontrado! Nota: {a['nota']}\n")
             return
-    print(f"{busca} não foi encontrado.")
+    print(f"{busca} não foi encontrado.\n")
 def lista_por_nota():
     if not alunos:
         print("Nenhum aluno cadastrado\n")
@@ -39,7 +39,7 @@ def lista_por_nota():
     lista_ordenada = sorted(alunos, key=lambda a: a["nota"], reverse=True)
     print("\nClassificacão dos Alunos (MAIOR NOTA)")
     for posicao, aluno in enumerate(lista_ordenada, start=1):
-        print(f"{posicao}º Lugar - {aluno['nome']}: Nota {aluno['nota']}")
+        print(f"{posicao}º Lugar - {aluno['nome']}: Nota {aluno['nota']}\n")
 def salvar_relatorio():
     if not alunos:
         print("Nenhum aluno para salvar.\n")
@@ -61,7 +61,7 @@ while True:
     print("5 - Ordenar lista por nota")
     print("6 - Salvar em arquivo .txt com open()")
     print("0 - Sair")
-    opcao = input("Opcão(0-6): ")
+    opcao = input("\nOpcão(0-6): ")
     if opcao == "1":
         cadastrar_alunos()
     elif opcao == "2":
